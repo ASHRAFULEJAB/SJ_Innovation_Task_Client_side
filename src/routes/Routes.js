@@ -5,6 +5,7 @@ import SignIn from "../pages/SignIn/SignIn";
 import SignUp from "../pages/SignUp/SignUp";
 import Home from "../pages/Home/Home";
 import Menu from "../pages/Menu/Menu";
+import PrivateRoute from "./PrivateRoute";
 
 const router = createBrowserRouter([
   {
@@ -18,7 +19,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/menu",
-        element: <Menu />,
+        element: (
+          <PrivateRoute>
+            <Menu />
+          </PrivateRoute>
+        ),
       },
       // {
       //   path: "/pre-nft",
