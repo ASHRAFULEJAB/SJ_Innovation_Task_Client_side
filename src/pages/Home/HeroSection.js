@@ -16,7 +16,7 @@ const HeroSection = () => {
           Enjoy your morning coffe
         </p>
         <p
-          className="text-[#52C1B9] lg:text-[25px] md:text-lg mt-10 md:mt-8 w-[90%]
+          className="text-[#52C1B9] lg:text-[25px] md:text-lg mt-12 lg:mt-10 md:mt-8 w-[90%]
            md:w-[80%] lg:w-[50%] drop-shadow-xl"
         >
           Boost Your Productivity & Build <br /> Your Mood with a Glass of
@@ -43,19 +43,20 @@ const HeroSection = () => {
               transition
             "
           >
-            Get Your Now
+            Get Your Coffee Now
           </button>
         </div>
       </div>
       <div className="">
-        <h1 className="text-[#52C1B9] font-semibold lg:text-[23px] my-3 lg:mt-0 mt-16 lg:ml-36">
+        <h1 className="text-[#52C1B9] font-semibold lg:text-[23px] my-3 lg:mt-3
+         mt-24 lg:mb-3  mb-6 ml-2 lg:ml-36">
           STAY IN TOUCH WITH US & SUBSCRIBE TO OUR NEWSLETTER
         </h1>
         <div className="lg:flex lg:mt-0 mt-2 ">
           <input
             type="email"
             className="bg-[#07070F] 
-               border-[4px] border-[#74B4B3] rounded-full lg:ml-36 py-3 px-20 lg:px-32"
+               border-[4px] border-[#74B4B3] rounded-full lg:ml-36 ml-3 py-3 px-20 lg:px-32"
             placeholder="Enter Email Here"
           />
           <div className="flex justify-center items-center">
