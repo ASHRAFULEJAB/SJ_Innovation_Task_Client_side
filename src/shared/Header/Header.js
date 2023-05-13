@@ -65,33 +65,6 @@ const Header = () => {
                   Menu
                 </Link>
               </li>
-              {/* <li>
-                <Link
-                  to="/pre-nft"
-                  aria-label="Product pricing"
-                  class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
-                >
-                  Pre-NFT Rights
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/marketplace"
-                  aria-label="About us"
-                  class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
-                >
-                  Marketplace
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/auction"
-                  aria-label="About us"
-                  class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
-                >
-                  Auction
-                </Link>
-              </li> */}
             </ul>
           </div>
           <ul class="flex items-center hidden space-x-8 lg:flex lg:ml-96">
@@ -223,33 +196,7 @@ const Header = () => {
                           Menu
                         </Link>
                       </li>
-                      {/* <li>
-                        <Link
-                          to="/pre-nft"
-                          aria-label="Product pricing"
-                          class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-purple-400"
-                        >
-                          Pre-NFT Rights
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          to="/marketplace"
-                          aria-label="About us"
-                          class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-purple-400"
-                        >
-                          Marketplace
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          to="/auction"
-                          aria-label="About us"
-                          class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-purple-400"
-                        >
-                          Auction
-                        </Link>
-                      </li> */}
+
                       {user?.uid ? (
                         <>
                           <li onClick={handleLogout}>

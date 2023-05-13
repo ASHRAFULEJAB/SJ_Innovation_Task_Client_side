@@ -25,18 +25,7 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
       },
-      // {
-      //   path: "/pre-nft",
-      //   element: <NftRights />,
-      // },
-      // {
-      //   path: "/marketplace",
-      //   element: <MarketPlace />,
-      // },
-      // {
-      //   path: "/auction",
-      //   element: <Auction />,
-      // },
+
       {
         path: "/login",
         element: <SignIn />,

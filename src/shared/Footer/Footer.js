@@ -37,12 +37,6 @@ const Footer = () => {
                 <h3 class="text-gray-700 uppercase dark:text-white">
                   Coffee Subscription
                 </h3>
-                {/* <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                  +1 526 654 8965
-                </span>
-                <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                  example@email.com
-                </span> */}
               </div>
             </div>
           </div>
@@ -151,26 +145,26 @@ const Footer = () => {
             </Link>
           </div>
           <div className=" lg:flex justify-between">
-            <p class="max-w-sm  lg:ml-4 mt-5 text-gray-500 dark:text-[rgba(254, 254, 254, 0.4)]">
+            <p class="max-w-sm  lg:ml-4 mt-5 text-gray-300 dark:text-[rgba(254, 254, 254, 0.4)]">
               reachus@coffee.shop
             </p>
-            <p class="max-w-sm lg:ml-20   mt-5 text-gray-500 dark:text-[rgba(254, 254, 254, 0.4)]">
+            <p class="max-w-sm lg:ml-20   mt-5 text-gray-300 dark:text-[rgba(254, 254, 254, 0.4)]">
               Privacy Policy
             </p>
-            <p class="max-w-sm lg:ml-52   mt-5 text-gray-500 dark:text-[rgba(254, 254, 254, 0.4)]">
+            <p class="max-w-sm lg:ml-52   mt-5 text-gray-300 dark:text-[rgba(254, 254, 254, 0.4)]">
               Terms of use
             </p>
-            <p class="max-w-sm lg:ml-52    mt-5 text-gray-500 dark:text-[rgba(254, 254, 254, 0.4)]">
+            <p class="max-w-sm lg:ml-52    mt-5 text-gray-300 dark:text-[rgba(254, 254, 254, 0.4)]">
               © CoffeShop 2023 - All rights reserved
             </p>
           </div>
         </div>
 
         <div className="lg:flex mt-3">
-          <p class=" text-gray-500 dark:text-[rgba(254, 254, 254, 0.4)]">
+          <p class=" text-gray-300 dark:text-[rgba(254, 254, 254, 0.4)]">
             Designed by @Asraful Islam Khan
           </p>
-          <p class=" lg:ml-56 text-gray-500 dark:text-[rgba(254, 254, 254, 0.4)]">
+          <p class=" lg:ml-56 text-gray-300 dark:text-[rgba(254, 254, 254, 0.4)]">
             CoffeeShop 1364019 B.C Ltd C/o Empowered Startups 744 W Hastings St
             #420, Vancouver, BC V6C 1A5, Canada
           </p>

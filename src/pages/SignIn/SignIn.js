@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form";
 
 import { GoogleAuthProvider } from "firebase/auth";
 import toast from "react-hot-toast";
-// import { setAuthToken } from '../../hooks/useToken'
+
 import Lottie from "lottie-react";
 import signin from "../../assets/signin.json";
 import { UserAuthContext } from "../../AuthContext/AuthProvider";
@@ -30,7 +30,7 @@ const SignIn = () => {
       .then((result) => {
         const user = result.user;
         toast.success("Login Sucessfully");
-        // setAuthToken(user)
+       
         navigate(from, { replace: true });
         console.log(user);
       })
@@ -56,21 +56,7 @@ const SignIn = () => {
         console.log(e);
       });
   };
-  // const savedUser = (name, email) => {
-  //   const user = { name, email, role: 'Buyer' }
-  //   fetch('https://mall-of-recondition-laptops-server.vercel.app/users', {
-  //     method: 'post',
-  //     headers: {
-  //       'content-type': 'application/json',
-  //     },
-  //     body: JSON.stringify(user),
-  //   })
-  //     .then((res) => res.json())
-  //     .then((data) => {
-  //       console.log(data)
-  //       setLoader(false)
-  //     })
-  // }
+  
   return (
     <div className="my-3 sm:mx-3 lg:flex">
       <div className=" lg:mt-36 w-full max-w-sm p-6 m-auto mx-auto bg-white rounded-md shadow-md dark:bg-gray-800">
